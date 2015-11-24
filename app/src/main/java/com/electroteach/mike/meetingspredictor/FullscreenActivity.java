@@ -30,7 +30,7 @@ public class FullscreenActivity extends AppCompatActivity {
     */
     Calendar date = Calendar.getInstance();
 
-    public static long factorialStreamsMJH(long n) {
+/*    public static long factorialStreamsMJH(long n) {
         //	StringBuilder sb = new StringBuilder;
         return LongStream.rangeClosed(1, 31)
 
@@ -42,7 +42,7 @@ public class FullscreenActivity extends AppCompatActivity {
                 .reduce(0, (long a, long b) -> a + b);
         //  System.out.print( "number " + n);
     }
-
+*/
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
      * user interaction before hiding the system UI.
@@ -210,6 +210,7 @@ public class FullscreenActivity extends AppCompatActivity {
                 // TODO: Make sure this auto-generated app deep link URI is correct.
                 Uri.parse("android-app://com.electroteach.mike.meetingspredictor/http/host/path")
         );
+        System.out.println("Mike test onStart message\n");
         AppIndex.AppIndexApi.start(client, viewAction);
     }
 

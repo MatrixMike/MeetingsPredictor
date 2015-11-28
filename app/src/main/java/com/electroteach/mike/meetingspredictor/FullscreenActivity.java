@@ -34,6 +34,7 @@ public class FullscreenActivity extends AppCompatActivity {
     */
     Calendar date = Calendar.getInstance();
 
+    // TODO set compiler to 1.8 to enable compilation of following class
 /*    public static long factorialStreamsMJH(long n) {
         //	StringBuilder sb = new StringBuilder;
         return LongStream.rangeClosed(1, 31)

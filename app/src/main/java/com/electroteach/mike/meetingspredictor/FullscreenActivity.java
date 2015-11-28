@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -14,6 +15,8 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -24,6 +27,7 @@ public class FullscreenActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
+    String msg ="Android : Mike: ";
     private static final boolean AUTO_HIDE = true;
     /*
 
@@ -122,7 +126,7 @@ public class FullscreenActivity extends AppCompatActivity {
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
 
-
+        Log.d(msg, "The onCreate() event");
         // Set up the user interaction to manually show or hide the system UI.
         mContentView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -210,7 +214,8 @@ public class FullscreenActivity extends AppCompatActivity {
                 // TODO: Make sure this auto-generated app deep link URI is correct.
                 Uri.parse("android-app://com.electroteach.mike.meetingspredictor/http/host/path")
         );
-        System.out.println("Mike test onStart message\n");
+      //   Calendar now = new GregorianCalendar(TimeZone)  ; // mike testing
+       //  System.out.println("Mike test onStart message\n");
         AppIndex.AppIndexApi.start(client, viewAction);
     }
 

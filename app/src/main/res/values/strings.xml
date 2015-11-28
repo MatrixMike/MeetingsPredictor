@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">MeetingsPredictor</string>
+    <string name="app_name">MeetingsPredictor 2</string>
 
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">CONTENT\nMike\nHewitt</string>
+    <string name="dummy_button">Dummy Button 1</string>
+    <string name="dummy_content">CONTENT\nMike\nHewitt\nTwo</string>
+
 </resources>

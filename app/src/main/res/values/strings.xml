@@ -3,5 +3,6 @@
 
     <string name="dummy_button">Dummy Button 1</string>
     <string name="dummy_content">CONTENT\nMike\nHewitt\nTwo\n2016</string>
+    <string name="button">Button1</string>
 
 </resources>

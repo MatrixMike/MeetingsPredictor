@@ -27,7 +27,7 @@ public class FullscreenActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    String msg ="Android : MikeH: ";
+    String msg ="Android : MikeH2: ";
     private static final boolean AUTO_HIDE = true;
     /*
     */

@@ -30,7 +30,6 @@ public class FullscreenActivity extends AppCompatActivity {
     String msg ="Android : MikeH: ";
     private static final boolean AUTO_HIDE = true;
     /*
-
     */
     Calendar date = Calendar.getInstance();
 

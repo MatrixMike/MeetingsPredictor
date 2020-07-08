@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MeetingsPredictor.iml" filepath="$PROJECT_DIR$/MeetingsPredictor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MeetingsPredictor-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MeetingsPredictor-app.iml" group="MeetingsPredictor/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects-MeetingsPredictor.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects-MeetingsPredictor.iml" group="MeetingsPredictor" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

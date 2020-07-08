@@ -9,14 +9,12 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Toast;
 
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
@@ -29,21 +27,15 @@ public class FullscreenActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    String msg ="Android : Mike: ";
+    String msg ="Android : MikeH2: ";
     private static final boolean AUTO_HIDE = true;
     /*
-
     */
     Calendar date = Calendar.getInstance();
-    Date startDate1 = new GregorianCalendar(2020, 11, 25, 9, 00).getTime();
-    Date endDate1 = new Date();
-    long diff1 = endDate1.getTime() - startDate1.getTime();
-
-    long  diff2 = (diff1 / (1000L*60L*60L*24L)) ;
 
     // TODO set compiler to 1.8 to enable compilation of following class
-
-/*    public static long factorialStreamsMJH(long n) {
+/*
+    public static long factorialStreamsMJH(long n) {
         //	StringBuilder sb = new StringBuilder;
         return LongStream.rangeClosed(1, 31)
 
@@ -144,12 +136,10 @@ public class FullscreenActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(this, Long.toString(-diff2), Toast.LENGTH_LONG).show();
-
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.button).setOnTouchListener(mDelayHideTouchListener);
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();

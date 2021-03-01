@@ -2,10 +2,10 @@ package com.electroteach.mike.meetingspredictor;
 
 import android.annotation.SuppressLint;
 import android.net.Uri;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -15,8 +15,6 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.TimeZone;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -35,7 +33,8 @@ public class FullscreenActivity extends AppCompatActivity {
     Calendar date = Calendar.getInstance();
 
     // TODO set compiler to 1.8 to enable compilation of following class
-/*    public static long factorialStreamsMJH(long n) {
+/*
+    public static long factorialStreamsMJH(long n) {
         //	StringBuilder sb = new StringBuilder;
         return LongStream.rangeClosed(1, 31)
 

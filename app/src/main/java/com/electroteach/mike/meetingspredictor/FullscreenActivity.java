@@ -25,10 +25,9 @@ public class FullscreenActivity extends AppCompatActivity {
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
-    String msg ="Android : Mike: ";
+    String msg ="Android : MikeH2: ";
     private static final boolean AUTO_HIDE = true;
     /*
-
     */
     Calendar date = Calendar.getInstance();
 
@@ -138,7 +137,7 @@ public class FullscreenActivity extends AppCompatActivity {
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
-        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+        findViewById(R.id.button).setOnTouchListener(mDelayHideTouchListener);
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
